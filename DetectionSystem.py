@@ -2,7 +2,7 @@
 import numpy as np
 import pickle
 import streamlit as st
-
+import sklearn
 loaded_model= pickle.load(open('trained_model9.sav', 'rb'))
 
 #creating a function
