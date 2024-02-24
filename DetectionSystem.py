@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model= pickle.load(open('E:/project2/trained_model9.sav', 'rb'))
+loaded_model= pickle.load(open('trained_model9.sav', 'rb'))
 
 #creating a function
 def netPred(input_data):
